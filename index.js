@@ -1,5 +1,5 @@
 import express from 'express'
-
+import { userRouter } from './users/users.js'
 // import http from 'http'
 
 // const host = '127.0.0.1'
@@ -49,6 +49,13 @@ const app = express()
     //     res.send('Привет POST!')
     // })
 
+// ЧТобы добавить обработку для роута /hello
+// необходимо передать его первым параметров в use() - app.use('/hello', ...)
+app.use((req, res, next) => {
+    console.log('Время: ', Date.now())
+    next()
+})
+
 app.get('/hello', (req, res) => {
     // можно возвращать статус - res.status(201).send()
     // вместое send можно использовать метод json
@@ -71,8 +78,17 @@ app.get('/hello', (req, res) => {
     // res.clearCookie('token')
 
     // res.send('Привет!')
-    res.end()
+    throw new Error('Error!!!')
 })
+
+app.use('/users', userRouter) // добавляем новый роут
+
+// Обработчик ошибок всегда должен добавляться в конце, иначе не отработает
+app.use((err, req, res, next) => {
+    console.log(err.message)
+    res.status(401).send(err.message)
+})
+
 app.listen(port, () => {
     console.log(`Сервер запущен на http://localhost:${port}`)
 })
