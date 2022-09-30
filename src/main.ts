@@ -7,17 +7,6 @@ import { LoggerService } from "./logger/logger.service";
 import { TYPES } from "./types";
 import { UsersController } from './users/users.controller'
 
-// async function bootstrap() {
-    // const logger = new LoggerService()
-    // const app = new App(
-    //     logger,
-    //     new UsersController(logger),
-    //     new ExeptionFilter(logger)
-    // )
-// }
-
-// bootstrap()
-
 export const appBindings = new ContainerModule((bind: interfaces.Bind) => {
     bind<ILogger>(TYPES.ILogger).to(LoggerService)
     bind<IExeptionFilter>(TYPES.ExeptionFilter).to(ExeptionFilter)

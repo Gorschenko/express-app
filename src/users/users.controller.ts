@@ -1,6 +1,5 @@
 import { BaseController } from "../common/base.controller"
 import { inject, injectable } from 'inversify'
-import { LoggerService } from "../logger/logger.service"
 import { HTTPError } from "../errors/http-error.class"
 import { TYPES } from '../types'
 import { Request, Response, NextFunction } from 'express'
@@ -20,7 +19,6 @@ export class UsersController extends BaseController implements IUserController {
     }
 
     login(req: Request, res: Response, next: NextFunction) {
-        // this.ok(res, 'login')
         next(new HTTPError(401, 'Ошибка авторизации'))
     }
     register(req: Request, res: Response, next: NextFunction) {
