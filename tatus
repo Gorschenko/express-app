@@ -1,0 +1,107 @@
+[33mcommit bfdb9e0a6fed1eb06b61dbb2aae91e41c29e0798[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sun Oct 2 15:34:47 2022 +0300
+
+    Config was added
+
+[33mcommit 6b8c07c81fafed0ee527ec737742afd645e074dc[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sun Oct 2 14:21:35 2022 +0300
+
+    Validation Middleware was added
+
+[33mcommit ea4d74a2f93a800dd5b56b114cfdc08952272941[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sun Oct 2 13:42:55 2022 +0300
+
+    Users service was added
+
+[33mcommit 0aa3aad91ffd1903c64887e150e1f5e0d95feb4a[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sun Oct 2 13:19:43 2022 +0300
+
+    DTO and user entity were added
+
+[33mcommit 9eb6957927af776bf28591f51610b5fc2ad5e99a[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sat Oct 1 00:04:44 2022 +0300
+
+    Nodemon was added
+
+[33mcommit 4d4b55e83beddaf8406c77811f908b05cf811ca7[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Fri Sep 30 23:58:52 2022 +0300
+
+    Eslint and Prettier were added
+
+[33mcommit ec47ec97d21df0cfb5e4b6c932815bbacb9f654b[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Fri Sep 30 23:15:09 2022 +0300
+
+    Some changes were added
+
+[33mcommit b5f1b65436b17485b03b3c9b635f36c83fd2a9e6[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sun Sep 4 14:00:46 2022 +0300
+
+    Some changes were added
+
+[33mcommit 94c6a62758bd265be96380dc00b4653819e8c9c8[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sun Sep 4 12:45:16 2022 +0300
+
+    Logger service interface was added. Decor test faile was created
+
+[33mcommit 34a6ff4a24f0182ff5907870cfcc783d33b1227d[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sat Sep 3 17:49:00 2022 +0300
+
+    Base controller was finished. Handler of errors was finished
+
+[33mcommit 9c05cc3f2f0fdfbe2eef257d2ee8419e758f902d[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sat Sep 3 15:15:41 2022 +0300
+
+    Base controller was started
+
+[33mcommit 59eb49753e070992b4a8aa6331775ce7aa3f5add[m
+Author: Alexey <aa.gorschenko@yandex.ru>
+Date:   Sat Sep 3 14:25:35 2022 +0300
+
+    Logger was added. Structure of project has been changed
+
+[33mcommit fc96c6cb1e9ecbf7b34011e60c9299492fef0119[m
+Author: Gorschenko <aa.gorschenko@yandex.ru>
+Date:   Mon Aug 29 20:53:59 2022 +0300
+
+    Test file for edition was added
+
+[33mcommit bf5933790f5161a7ead5078d304ff4afe02b16b9[m
+Author: Gorschenko <aa.gorschenko@yandex.ru>
+Date:   Wed Aug 24 21:33:01 2022 +0300
+
+    Test file for edition was added
+
+[33mcommit c474fe660c77b065787cf76e8c52d33c66ad046a[m
+Author: Gorschenko <aa.gorschenko@yandex.ru>
+Date:   Wed Aug 24 20:44:07 2022 +0300
+
+    TS was integrated
+
+[33mcommit 0debaa5f284477751e7896012f806cf885cc69fb[m
+Author: Gorschenko <aa.gorschenko@yandex.ru>
+Date:   Sun Aug 21 16:08:02 2022 +0300
+
+    New route and some handlers were added
+
+[33mcommit ae573234dc62db367022b95b2ff425db5f8f6573[m
+Author: Gorschenko <aa.gorschenko@yandex.ru>
+Date:   Sun Aug 21 15:24:43 2022 +0300
+
+    Express was added and tested
+
+[33mcommit f46637c8c8f2569aae48c5012d4d286dc81b76ea[m
+Author: Gorschenko <aa.gorschenko@yandex.ru>
+Date:   Sun Aug 21 13:47:05 2022 +0300
+
+    Project was Initialized
